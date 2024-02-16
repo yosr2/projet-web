@@ -1,0 +1,116 @@
+/* Styles communs à toutes les pages */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Styles spécifiques à chaque page */
+.hero {
+  text-align: center;
+  padding: 100px 0;
+  background-color: #f4f4f4;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #555;
+}
+
+.products {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.product {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  width: 50%;
+}
+
+.product img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.price {
+  font-weight: bold;
+}
+
+.contact {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.contact form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+.d-p{
+  display: flex;
+  align-items: center;
+}
+.contact form label,
+.contact form input,
+.contact form textarea,
+.contact form button {
+  display: block;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.contact form textarea {
+  height: 200px;
+}
